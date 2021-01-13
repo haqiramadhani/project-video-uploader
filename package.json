@@ -1,0 +1,19 @@
+{
+  "name": "project-video-uploader",
+  "version": "1.0.0",
+  "description": "this is bot for automatically uploading videos to social media",
+  "main": "index.js",
+  "author": "Robot Digital <haqi@robotdigital.id>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node .",
+    "chrome": "/usr/bin/google-chrome-stable --user-data-dir='sessions/Robot Digital' --remote-debugging-port=2345"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "puppeteer-core": "^5.5.0",
+    "puppeteer-extra": "^3.1.15",
+    "puppeteer-extra-plugin-stealth": "^2.6.5"
+  }
+}
